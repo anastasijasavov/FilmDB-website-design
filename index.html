@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie list</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <script>
+        AOS.init({
+            duration: 800
+        });
+    </script>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+
+    <div class="slideout-sidebar">
+        <ul>
+            <li class="span"><span>Home</span></li>
+            <li class="span"><span>Catalog</span></li>
+            <li class="span"><span>Gallery</span></li>
+            <li class="span"><span>Contact</span></li>
+            <li class="span"><span>About me</span></li>
+            <li id="theaters" class="span"><span class="span">Now in theaters</span></li>
+
+        </ul>
+
+
+    </div>
+    <header>
+
+
+        <div class="gridnav">
+
+
+            <div class="grid1">
+                <a href="#sf"><img src="images/scifi2.jpg"></a>
+            </div>
+
+
+            <div class="grid1">
+                <a href="#thriller"><img src="images/thriller2.jpg"> </a>
+            </div>
+
+            <div class="grid1">
+                <a href="#drama"><img src="images/drama2.jpg"> </a>
+            </div>
+
+            <div class="grid1">
+                <a href="#best"><img src="images/best2.jpg"></a>
+            </div>
+
+
+        </div>
+    </header>
+
+    <main class="content-container">
+
+        <h1 id="sf" style="font-size:6.6vw;font-family:'Brandon grotesque', sans-serif;margin-left:10px;">SCIENCE FICTION</h1>
+        <div class="moon">
+            <img src="images/moon.jpg">
+            <h1 contentEditable role='textbox' aria-multiline='true' class="hero-text" style="mix-blend-mode: difference;">A trip to the moon</h1>
+
+            <div data-aos="fade-up" class="text">
+
+                <h1>The first ever science fiction film: A trip to the Moon (1902)</h1>
+                <p>Voyage dans la Lune (France, 1902), the screen's first science fiction story, was a 14 minute masterpiece , created by imaginative French director and master magician Georges Melies (1861-1938) in his version of the Jules Verne story.
+                    The silent film's plot, a light-hearted satire criticizing the conservative scientific community of its time, was inspired by Jules Verne's From the Earth to the Moon (1865) and H. G. Wells' First Men in the Moon (1901).</p>
+            </div>
+        </div>
+        <article data-aos="fade-up">
+            <div class="scif">
+                <img id="scif" align="left" src="images/scif.jpg">
+            </div>
+        </article>
+
+
+        <a href="#top"><i class="fa fa-chevron-up" style="font-size:54px; color:#828282;position:fixed;bottom:0;right:0;z-index:10;mix-blend-mode: difference;"></i></a>
+
+        <article>
+            <div>
+                <h1 style="    font-family: 'Roboto Mono', monospace; margin-left: 20px;font-size: 32px;clear:both;">Top 8 science fiction movies</h1>
+            </div>
+            <section data-aos="fade-up" class="parent">
+                <div class="div1">
+                    <div class="hvrbox"><img class="pic" src="images/inception.jpg">
+                        <h2>1. Inception (2010)</h2>
+
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="hvrbox"><img class="pic" src="images/interstellar.jpg">
+                        <h2>2. Interstellar (2014)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="hvrbox"><img class="pic" src="images/matrix.jpg">
+                        <h2>3. The Matrix (1999)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="hvrbox"><img class="pic" src="images/passengers.jpg">
+                        <h2>4. The passengers (2016)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div5">
+                    <div class="hvrbox"><img class="pic" src="images/gravity.jpg">
+                        <h2>5. Gravity (2013)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>7.7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div6">
+                    <div class="hvrbox"><img class="pic" src="images/donnie.jpg">
+                        <h2>6. Donnie Darko (2001)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>6.9</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div7">
+                    <div class="hvrbox"><img class="pic" src="images/Martian.jpg">
+                        <h2>7. The Martian (2015)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div8">
+                    <div class="hvrbox"><img class="pic" src="images/drstrange.jpg">
+                        <h2>8. Doctor Strange (2016)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>7.5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside class="aside">
+                <h1 data-aos="fade-up" style="text-transform: uppercase; padding-left:20px; font-size:32px;"><a href="#">Now in theaters </a></h1>
+                <ul>
+                    <li>
+
+                        <div data-aos="fade-up" class="actual">
+                            <img class="img" src="images/charlie.jpg">
+                            <a href="#"><img class="ticket" src="images/ticket.jpg"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div data-aos="fade-up" class="actual">
+                            <img class="img" src="images/goodliar.jpg">
+                            <a href="#"><img class="ticket" src="images/ticket.jpg"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div data-aos="fade-up" class="actual">
+                            <img class="img" src="images/addams.jpg">
+                            <a href="#"><img class="ticket" src="images/ticket.jpg"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div data-aos="fade-up">
+                            <img class="img" style=" border-radius: 17px 17px 17px 17px;" src="images/neighbor.jpg">
+                            <a href="#"><img class="ticket" src="images/ticket.jpg" alt="Book now!"></a>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+            </aside>
+
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <h1 style="font-size:6.6vw;font-family:'Brandon grotesque', sans-serif;margin-left:10px;padding-top:20px;letter-spacing:3px; margin-bottom:5px;">THRILLER</h1>
+
+            <div id="thriller" data-aos="fade-up" class=text2>
+                <img src="images/psycho.jpg">
+                <h1 style="font-family:'Roboto', monospace;margin:20px;">How Hitchcock's 'Psycho' Changed How We Watch Movies in Theaters Forever</h1>
+                <p>Back in the day, movies didn't have official start times. Psycho was the first film that came with SCHEDULED MOVIE-TIMES. At first, theater owners thought he was crazy, but then they did the math. Scheduled times meant they could sell
+                    more tickets. It made this movie exclusive and made people want to get there to see it. So they bought in. Once the movie started the doors were locked and no one could get in (or out). You would have to stand in line for the next
+                    show or come back later. The movie was marketed this way, as a must-see, and must-see on time, and it worked. </p>
+            </div>
+            <div>
+
+                <h1 style="    font-family: 'Roboto Mono', monospace; margin-left: 20px;font-size: 32px;">Top 8 thriller movies</h1>
+            </div>
+
+
+            <section data-aos="fade-up" class="parent">
+
+                <div class="div1">
+                    <div class="hvrbox"><img class="pic" src="images/Shutter.jpg">
+                        <h2>1. Shutter island (2010)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="hvrbox"><img class="pic" src="images/silence.jpg">
+                        <h2>2. The silence of the lambs (1991)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="hvrbox"><img class="pic" src="images/departed.jpg">
+                        <h2>3. The departed (2006)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="hvrbox"><img class="pic" src="images/us.jpg">
+                        <h2>4. Us (2019)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>6.9</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div5">
+                    <div class="hvrbox"><img class="pic" src="images/seven.jpg">
+                        <h2>5. Se7en (1995)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div6">
+                    <div class="hvrbox"><img class="pic" src="images/split.jpg">
+                        <h2> 6. Split (2016)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>7.3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div7">
+                    <div class="hvrbox"><img class="pic" src="images/Captain.jpg">
+                        <h2>7. Captain Phillips (2013)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>7.8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div8">
+                    <div class="hvrbox"><img class="pic" src="images/orphan.jpg">
+                        <h2>8. Orphan (2009)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>6.9</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <h1 id="drama" style="font-size:6.6vw;font-family:'Brandon grotesque', sans-serif;margin-left:10px;padding-top:40px;clear:both;letter-spacing:3px; margin-bottom:5px;">DRAMA</h1>
+
+            <div data-aos="fade-up" class="text2"> <img src="images/godfather.jpg">
+                <h1 style="font-family:'Roboto', monospace;margin:20px;">What is The Godfather Effect?</h1>
+                <p>The film changed Hollywood because it finally changed the way Italians were depicted on film. It made Italians seem like more fully realized people and not stereotypes. It was a film in Hollywood made by Italians about Italians. Previously,
+                    it had not been Italians making the mobster films featuring Italian gangsters.I feel it helped Italianize American culture. All of a sudden, everyone was talking about Don Corleone and making jokes about, “I am going to make you an
+                    offer you can’t refuse.” I think it helped people see that in this depiction of Italian-Americans was a reflection of their own immigrant experience, whether they were Irish or Jews from Eastern Europe. They found that common ground.</p>
+            </div>
+            <div>
+                <h1 style=" font-family: 'Roboto Mono', monospace; margin-left: 20px;font-size: 32px;clear:both;">Top 8 drama movies</h1>
+            </div>
+            <section data-aos="fade-up" class="parent">
+
+                <div class="div1">
+                    <div class="hvrbox"><img class="pic" src="images/schindler.jpg">
+                        <h2>1. Schindler's list (1993)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.9</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="hvrbox"><img class="pic" src="images/forrest.jpg">
+                        <h2>2. Forrest Gump (1994)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="hvrbox"><img class="pic" src="images/catchme.jpg">
+                        <h2>3. Catch me if you can (2002)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="hvrbox"><img class="pic" src="images/savingprivate.jpg">
+                        <h2>4. Saving private Ryan (1998)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div5">
+                    <div class="hvrbox"><img class="pic" src="images/lavita.jpg">
+                        <h2>5. La vita e bella (1997)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div6">
+                    <div class="hvrbox"><img class="pic" src="images/shawshank.jpg">
+                        <h2>6. Shawshank redemption (1994) </h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>9.3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div7">
+                    <div class="hvrbox"><img class="pic" src="images/12years.jpg">
+                        <h2>7. 12 years a slave (2013)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div8">
+                    <div class="hvrbox"><img class="pic" src="images/castaway.jpg">
+                        <h2>8.Cast away (2000)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>7.8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <h1 id="best" style="font-size:6.6vw;font-family:'Brandon grotesque', sans-serif;margin-left:10px;clear:both;padding-top:40px;letter-spacing:3px; margin-bottom:5px;">BEST OF ALL TIME</h1>
+            <div>
+                <h1 style="    font-family: 'Roboto Mono', monospace; margin-left: 20px;font-size: 32px;clear:both;">Top 8 best of all time movies</h1>
+            </div>
+            <section data-aos="fade-up" class="parent">
+
+                <div class="div1">
+                    <div class="hvrbox"><img class="pic" src="images/god.jpg">
+                        <h2>1. The Godfather (1972)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>9.2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="hvrbox"><img class="pic" src="images/citizenkane.jpg">
+                        <h2>2. Citizen Kane (1941)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="hvrbox"><img class="pic" src="images/pulp.jpg">
+                        <h2>3. Pulp fiction (1994)</h2>
+
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.9</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div4">
+
+                    <div class="hvrbox"><img class="pic" src="images/casablanca.jpg">
+                        <h2>4. Casablanca (1941)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div5">
+                    <div class="hvrbox"><img class="pic" src="images/killabird.jpg">
+                        <h2>5. To kill a mockingbird (1962)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div6">
+                    <div class="hvrbox"><img class="pic" src="images/lawrence.jpg">
+                        <h2>6. Lawrence of Arabia (1962)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div7">
+                    <div class="hvrbox"><img class="pic" src="images/psycho2.jpg">
+                        <h2>7. Psycho (1960)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8.5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div8">
+                    <div class="hvrbox"><img class="pic" src="images/thewiz.jpg">
+                        <h2>8. The Wizard of Oz (1939)</h2>
+                        <div class="hvrlayer">
+                            <div class="hvrtxt">
+                                <p> <span style="font-size:250%;color:#e3cd27;">&starf;</span>8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </article>
+
+
+
+        <footer>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <p style="font-family:'Roboto', monospace" id="rights">&copy;All Rights Reserved!</p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
